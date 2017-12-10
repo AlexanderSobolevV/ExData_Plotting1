@@ -1,4 +1,6 @@
-setwd("/Users/i312190/Desktop/Data Science/UNIT4/WEEK1")
+#optional area'
+#setwd("/Users/i312190/Desktop/Data Science/UNIT4/WEEK1")
+#optional area'
 raw_data <- read.csv("household_power_consumption.txt", header = TRUE, sep = ';', na.strings = "?")
 raw_data$Time <- paste(raw_data$Date, raw_data$Time)
 raw_data$Date <- as.Date(raw_data$Date, format = "%d/%m/%Y")
